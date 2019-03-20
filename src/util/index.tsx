@@ -28,7 +28,7 @@ export interface MarginProps {
 
 // eslint-disable-next-line no-shadow
 export const propMargin = ({ size = 0 }: MarginProps) => css`
-  margin: ${size}px auto;
+  margin: auto auto;
 `
 
 export const animationDelay = (n: number) =>
